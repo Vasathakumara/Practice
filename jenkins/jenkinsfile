@@ -14,6 +14,7 @@ pipeline {
                                         }
 
                                                   }
+<<<<<<< HEAD
                              stage('Third stage'){
                                    steps{
                                         echo 'Good evening'
@@ -21,5 +22,9 @@ pipeline {
 
                                                   }
   }   
+=======
+ 
+        }   
+>>>>>>> 6a9b4edaa50c637a0e56c286786e268b0d9b6a0a
 
         }   
