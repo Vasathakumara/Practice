@@ -24,7 +24,12 @@ pipeline {
 
                                                   }
   
+                             stage('Mail will generate'){
+                                   steps{
+                                        mail bcc: '', body: '', cc: '', from: '', replyTo: '', subject: 'Build success', to: 'vasanthahr.kit99@gmail.com'
+                                        }
 
+                                                  }
  
         }   
 
