@@ -24,7 +24,7 @@ pipeline {
 
                                                   }
   
-                             stage('Mail will generate'){
+                             stage('Fourth stage'){
                                    steps{
                                         echo 'Good night'
                                         }
